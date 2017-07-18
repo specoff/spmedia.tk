@@ -1,0 +1,17 @@
+{
+  "name": "Baluhin",
+  "autoload": {
+    "psr-4": {
+      "Baluhin\\": "core/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "fenom/fenom": "2.*",
+    "xpdo/xpdo": "3.0.*@dev"
+  },
+  "scripts": {
+    "post-install-cmd": "\\Baluhin\\Core::cleanPackages",
+    "post-update-cmd": "\\Baluhin\\Core::cleanPackages"
+  }
+}

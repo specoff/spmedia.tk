@@ -1,0 +1,37 @@
+body {
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    position: relative;
+}
+.wrapper{
+	overflow: hidden;
+	position: relative;
+}
+.page-header {
+    background: #161616;
+    position: relative;
+    z-index: 101;
+    border: none;
+    border-bottom: 3px solid #337ab7;
+    margin: 0;
+    padding: 0;
+}
+.page-main-column {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 800px;
+}
+.content-layout {
+    margin-top: 10px;
+}
+.gp-main-column {
+    position: relative;
+}
+.page-main-column {
+    margin: 0 auto 0;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
